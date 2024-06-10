@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------Navbar---------------- */
+.home-icon{
+    color: rgb(185 28 28);
+    font-size: 1.5rem;
+    padding: 7px;
+    border-bottom: 3px solid #b91c1c;
+}
+.link-hov:hover{
+    background-color: rgb(242, 242, 242);
+    border-radius: 8px;
+}
+
+.following-icon{
+    color: rgb(103, 102, 102);
+    font-size: 1.5rem;
+    padding: 7px;
+}
+
+.search-hov:focus-within{
+    border: 1px solid blue;
+}
+
+/* --------Leftbar---------------- */
+.leftbar-hov:hover{
+    background-color: rgb(232, 232, 232);
+}
